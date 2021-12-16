@@ -12,6 +12,7 @@ for d in DATA[2:]:
     INS.append((pair, insertion))
 print(TEMPLATE, INS)
 
+
 def part_1():
     polymers = TEMPLATE
     for _ in range(40):

@@ -6,7 +6,7 @@ import numpy as np
 
 def read_file(file_path):
     with open(file_path) as file:
-        data = file.read().split('\n')
+        data = file.read().splitlines()
 
     if data[-1] == '':
         data = data[:-1]
